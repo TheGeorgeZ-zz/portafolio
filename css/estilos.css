@@ -1,0 +1,17 @@
+.title {
+    color: #343a40;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 30px;
+}
+/* Linea despues del titulo del section */
+.title::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 3px;
+    border-radius: 5px;
+    background-color: #29AADE;
+    bottom: -10px;
+    left: 0;
+}
